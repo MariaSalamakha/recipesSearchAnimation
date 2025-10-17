@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(255, 240, 209);
+}
+.heading, .graff {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.recipe {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+.second {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+h1 {
+    font-family: 'Simplicity', sans-serif;
+    font-size: 55px;
+    color: #543310 ;
+}
+h3 {
+    color: #430A5D;
+    font-family: 'Simplicity', sans-serif;
+    font-size: 40px;
+    align-self: center;
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+#input-text {
+    flex: 1;
+    padding: 10px 10px 10px 17px;
+    border: 1px #A67B5B dotted;
+    font-family: "Fauna One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+.graff {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h4, p, .cooking {
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.cooking {
+    margin-left: -15px; 
+}
+.titleIngredients{
+    color: #54BAB9;
+}
+.boxIngredient {
+    display: flex;
+    border-bottom: dotted #54BAB9 3px;
+    margin: 0px 5px 0px 5px;
+}
+li {
+    list-style-type: circle; 
+}
+li::marker {
+    color: #54BAB9;
+}
+h4 {
+    font-size: 17px;
+}
+.btn{
+    background-color: #430A5D;
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+@media all and (max-width:800px) {
+    h1 {
+        font-size: 45px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    img {
+        width: 250px;
+        height: 250px;
+    }
+    p, li {
+        font-size: 10px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    .btn{
+        padding: 5px 5px 5px 5px;
+    }
+}
+@media all and (max-width:500px) {
+    h1 {
+        font-size: 35px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 10px;
+    }
+    p, li, #input-text {
+        font-size: 8px;
+    }
+    .container {
+        margin: 5px 5px 5px 5px;
+    }
+    .recipe {
+        margin: 5px 5px 5px 5px;
+        padding: 5px;
+    }
+    #input-text {
+        padding: 2px 2px 2px 2px;
+    }
+    .graff {
+        margin-left: 1px;
+        margin-right: 1px;
+    }   
+    img {
+        width: 250px;
+        height: 250px;
+    }
+    .boxIngredient {
+        border-bottom: dotted #54BAB9 1px;
+}
+}
